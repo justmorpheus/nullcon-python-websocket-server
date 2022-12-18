@@ -1,5 +1,9 @@
 from websocket_server import WebsocketServer
 
+#IN CASE OF BOTO3 - FOR PRIVESC -2
+#access_key = "AKIAR5ZYVNEQ6BJ2JYCN"
+#iam_role = "pv2-securitydojo"
+
 # Called for every client connecting (after handshake)
 def new_client(client, server):
 	print("New client connected and was given id %d" % client['id'])
