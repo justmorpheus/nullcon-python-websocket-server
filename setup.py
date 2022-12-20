@@ -4,6 +4,9 @@ import re
 import subprocess
 import shlex
 
+#access_key = "AKIAR5ZYVNEQYQWLKNFO"
+#secret_key = "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"
+
 try:
     from setuptools import setup, find_packages
     from setuptools.command.install import install
